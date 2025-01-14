@@ -14,3 +14,21 @@
 text-align: justify;
 margin: 100px 100px 100px 100px;
 }
+
+.personal{
+    text-align: center;
+}
+
+.personal img{
+    margin-top: 2%;
+    border-radius: 20%;
+}
+
+.personal h1 {
+    font-weight: bolder;
+}
+
+.personal h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
