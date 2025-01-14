@@ -1,0 +1,16 @@
+.first h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 10px;
+
+
+}
+
+.first p{ 
+    font-family: cursive;
+text-align: justify;
+margin: 100px 100px 100px 100px;
+}
