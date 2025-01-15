@@ -1,34 +1,176 @@
-.first h1{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f6;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #fbc2eb, #a6c1ee);
+    color: #fff;
+    padding: 2rem 1rem;
     text-align: center;
-    font-weight: bolder;
-    font-size: 50px;
-    margin-top: 10px;
-
-
 }
 
-.first p{ 
-    font-family: cursive;
-text-align: justify;
-margin: 100px 100px 100px 100px;
+header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
-.personal{
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #f8c1d8;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    background: #d58eb2;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #e8a8d3;
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
     text-align: center;
+    background: #fff5fa;
+    padding: 2rem;
+    border: 2px solid #fbc2eb;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.personal img{
-    margin-top: 2%;
-    border-radius: 20%;
+.hero h2 {
+    font-size: 2.5rem;
+    color: #d58eb2;
 }
 
-.personal h1 {
-    font-weight: bolder;
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: start;
 }
 
-.personal h3{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+.cv {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
+
+.cv-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.cv-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #d58eb2;
+}
+
+.cv-item p {
+    font-size: 1rem;
+}
+
+footer {
+    background: #fbc2eb;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+.profile-img {
+    width: 250px; /* Adjust width for desired size */
+    height: 250px; /* Match height to width for a square */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the bounds */
+    margin: 1rem 0; /* Adds spacing around the image */
+    border: 3px solid #d58eb2; /* Optional: Add a border for styling */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better presentation */
+}
+
+#hobbies {
+    background-color: #fff5fa; /* Light pink background for contrast */
+    padding: 3rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px; /* Center and contain the section */
+}
+
+#hobbies h2 {
+    font-size: 2.5rem;
+    color: #d58eb2;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between hobbies */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+.hobby {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 200px; /* Fixed width for uniformity */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add hover effect */
+}
+
+.hobby:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hobby img {
+    width: 100%;
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures images fit nicely within the box */
+    border-radius: 10px; /* Rounds image corners */
+    margin-bottom: 1rem;
+}
+
+.hobby h3 {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
